@@ -2,6 +2,8 @@
 
 We will be using the HTML5 standard.
 
+Based on the [Google HTML Guide](http://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml).
+
 # Encoding
  - Use UTF-8, no BOM.
  - Specify the encoding in HTML templates and documents via `<meta charset="utf-8">`.

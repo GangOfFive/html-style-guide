@@ -16,15 +16,16 @@ Based on the [Google HTML Guide](http://google-styleguide.googlecode.com/svn/tru
     ~~~
     
 # Formatting
+ - Close all the optionally-closed tags for clarity.
  - Use a new line for every block, list, or table element, and indent every such child element.
     ~~~html
     <blockquote>
-       <p><em>Space</em>, the final frontier.</p>
+      <p><em>Space</em>, the final frontier.</p>
     </blockquote>
     <ul>
-      <li>Moe
-      <li>Larry
-      <li>Curly
+      <li>Moe</li>
+      <li>Larry</li>
+      <li>Curly</li>
     </ul>
     <table>
       <thead>
@@ -40,6 +41,14 @@ Based on the [Google HTML Guide](http://google-styleguide.googlecode.com/svn/tru
         </tr>
       </tbody>
     </table>
+    ~~~
+ 
+ - Don't close self-closing tags. Also, do not use their old HTML-4 style: `<tag />`.
+    ~~~html
+    <!-- bad -->
+    <img src="hello.jpg" />
+    <!-- good -->
+    <img src="hello.jpg" />
     ~~~
 
  - Use 2 spaces for indentation

@@ -43,7 +43,7 @@ Based on the [Google HTML Guide](http://google-styleguide.googlecode.com/svn/tru
     </table>
     ~~~
  
- - Don't close self-closing tags. Also, do not use their old HTML-4 style: `<tag />`.
+ - Don't close self-closing tags. Also, do not use their old XHTML style: `<tag />`.
     ~~~html
     <!-- bad -->
     <img src="hello.jpg" />

@@ -59,12 +59,14 @@ Based on the [Google HTML Guide](http://google-styleguide.googlecode.com/svn/tru
     </div>
     ~~~
  - Use only lowercase for tags and attributes
+
     ~~~html
     <!-- Bad -->
     <A HREF="/">Home</A>
     <!-- Good -->
     <a href="/">Home</a>
     ~~~
+
  - Use double ("") rather than single quotation marks ('') around attribute values.
 
     ~~~html

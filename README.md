@@ -1,3 +1,10 @@
+**Table of Contents**  *generated with [DocToc](http://doctoc.herokuapp.com/)*
+
+- [HTML Style Guide for Gang of Five](#html-style-guide-for-gang-of-five)
+	- [Encoding](#encoding)
+	- [Doctype](#doctype)
+	- [Formatting](#formatting)
+
 # HTML Style Guide for *Gang of Five*
 
 We will be using the HTML5 standard.

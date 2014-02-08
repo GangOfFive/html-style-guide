@@ -4,18 +4,18 @@ We will be using the HTML5 standard.
 
 Based on the [Google HTML Guide](http://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml).
 
-# Encoding
+## Encoding
  - Use UTF-8, no BOM.
  - Specify the encoding in HTML templates and documents via `<meta charset="utf-8">`.
 
-# Doctype
+## Doctype
  - Use the HTML5 doctype
 
     ~~~html
     <!DOCTYPE html>
     ~~~
     
-# Formatting
+## Formatting
  - Close all the optionally-closed tags for clarity.
  - Use a new line for every block, list, or table element, and indent every such child element.
     ~~~html
@@ -75,7 +75,7 @@ Based on the [Google HTML Guide](http://google-styleguide.googlecode.com/svn/tru
     <!-- Good -->
     <a href="/sign-in" class="button">Sign in</a>
     ~~~
-# Misc
+## Misc
  - Do not use type attributes on script tags and stylesheets, since HTML5 always assumes CSS and JavaScript.
 
     ~~~html

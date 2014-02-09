@@ -25,6 +25,7 @@ Basado en [Google HTML Guide](http://google-styleguide.googlecode.com/svn/trunk/
 ## Formato
  - Cerrar todas las etiquetas opcionales por claridad.
  - Utilizar una línea nueva para cada elemento de bloque, lista, o tabla, e indentar cada elemento hijo.
+
     ~~~html
     <blockquote>
       <p><em>Space</em>, the final frontier.</p>
@@ -52,6 +53,7 @@ Basado en [Google HTML Guide](http://google-styleguide.googlecode.com/svn/trunk/
  
  - No cerrar las etiquetas que se cierran solas.
    Tampoco utilizar: `<tag />`:
+
     ~~~html
     <!-- No recomendado -->
     <img src="hello.jpg" />
@@ -85,8 +87,10 @@ Basado en [Google HTML Guide](http://google-styleguide.googlecode.com/svn/trunk/
     <!-- Recomendado -->
     <a href="/sign-in" class="button">Sign in</a>
     ~~~
+    
 ## Otros
- - No utilizar el atributo `type` para etiquetas `script` y hojas de estilo, ya que HTML5 siempre asume CSS y JavaScript.
+ - No utilizar el atributo `type` para etiquetas `script` y hojas de estilo,
+   ya que HTML5 siempre asume CSS y JavaScript.
 
     ~~~html
     <!-- No recomendado -->

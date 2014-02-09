@@ -1,30 +1,24 @@
-**Table of Contents**  *generated with [DocToc](http://doctoc.herokuapp.com/)*
 
-- [HTML Style Guide for Gang of Five](#html-style-guide-for-gang-of-five)
-	- [Encoding](#encoding)
-	- [Doctype](#doctype)
-	- [Formatting](#formatting)
+# Estándar de HTML para *Gang of Five*
 
-# HTML Style Guide for *Gang of Five*
+Se utilizará el estándar de HTML5.
 
-We will be using the HTML5 standard.
+Basado en [Google HTML Guide](http://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml).
 
-Based on the [Google HTML Guide](http://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml).
-
-## Encoding
- - Use UTF-8, no BOM.
- - Specify the encoding in HTML templates and documents via `<meta charset="utf-8">`.
+## Codificación
+ - Utilizar UTF-8, sin BOM.
+ - Especificar la codificación en documentos HTML y *templates*, utilizando `<meta charset="utf-8">`.
 
 ## Doctype
- - Use the HTML5 doctype
+ - Utilizar el *doctype* de HTML5.
 
     ~~~html
     <!DOCTYPE html>
     ~~~
     
-## Formatting
- - Close all the optionally-closed tags for clarity.
- - Use a new line for every block, list, or table element, and indent every such child element.
+## Formato
+ - Cerrar todas las etiquetas opcionales por claridad.
+ - Utilizar una línea nueva para cada elemento de bloque, lista, o tabla, e indentar cada elemento hijo.
     ~~~html
     <blockquote>
       <p><em>Space</em>, the final frontier.</p>
@@ -50,48 +44,51 @@ Based on the [Google HTML Guide](http://google-styleguide.googlecode.com/svn/tru
     </table>
     ~~~
  
- - Don't close self-closing tags. Also, do not use their old XHTML style: `<tag />`.
+ - No cerrar las etiquetas que se cierran solas.
+   Tampoco utilizar: `<tag />`:
     ~~~html
-    <!-- bad -->
+    <!-- No recomendado -->
     <img src="hello.jpg" />
-    <!-- good -->
+    <!-- No recomendado -->
+    <img src="hello.jpg"></img>
+    <!-- Recomendado -->
     <img src="hello.jpg" />
     ~~~
 
- - Use 2 spaces for indentation
+ - Utilizar `2` espacios para la indentación:
 
     ~~~html
     <div class="thumbnail">
       <img src="hello.jpg">
     </div>
     ~~~
- - Use only lowercase for tags and attributes
+ - Utilizar solamente minúsculas para etiquetas y atributos:
 
     ~~~html
-    <!-- Bad -->
+    <!-- No recomendado -->
     <A HREF="/">Home</A>
-    <!-- Good -->
+    <!-- Recomendado -->
     <a href="/">Home</a>
     ~~~
 
- - Use double ("") rather than single quotation marks ('') around attribute values.
+ - Utilizar comillas dobles `""` en vez de simples `''` para los atributos:
 
     ~~~html
-    <!-- Bad -->
+    <!-- No recomendado -->
     <a href='/sign-in' class='button'>Sign in</a>
-    <!-- Good -->
+    <!-- Recomendado -->
     <a href="/sign-in" class="button">Sign in</a>
     ~~~
-## Misc
- - Do not use type attributes on script tags and stylesheets, since HTML5 always assumes CSS and JavaScript.
+## Otros
+ - No utilizar el atributo `type` para etiquetas `script` y hojas de estilo, ya que HTML5 siempre asume CSS y JavaScript.
 
     ~~~html
-    <!-- Bad -->
+    <!-- No recomendado -->
     <link rel="stylesheet" href="css/style.css" type="text/css">
-    <!-- Good -->
+    <!-- Recomendado -->
     <link rel="stylesheet" href="css/style.css">
-    <!-- Bad -->
+    <!-- No recomendado -->
     <script src="js/main.js" type="text/javascript"></script>
-    <!-- Good -->
+    <!-- Recomendado -->
     <script src="js/main.js"></script>
     ~~~

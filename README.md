@@ -1,3 +1,9 @@
+**Tabla de Contenidos**
+
+- [Estándar de HTML para Gang of Five](#est%C3%A1ndar-de-html-para-gang-of-five)
+	- [Codificación](#codificaci%C3%B3n)
+	- [Doctype](#doctype)
+	- [Formato](#formato)
 
 # Estándar de HTML para *Gang of Five*
 

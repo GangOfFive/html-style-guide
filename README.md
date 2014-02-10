@@ -60,7 +60,7 @@ Basado en [Google HTML Guide](http://google-styleguide.googlecode.com/svn/trunk/
     <!-- No recomendado -->
     <img src="hello.jpg"></img>
     <!-- Recomendado -->
-    <img src="hello.jpg" />
+    <img src="hello.jpg">
     ~~~
 
  - Utilizar `2` espacios para la indentación:
